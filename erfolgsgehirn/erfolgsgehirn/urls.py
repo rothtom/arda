@@ -20,6 +20,6 @@ from django.urls import path, include
 urlpatterns = [
     # path in project includes apps by including their url files and mapping them to whatever you want to name it
     # path(actual path on website, the urlfile of the app(s) you want to include)
-    path("homepage/", include("homepage.urls")),
+    path("ardamussbesserenamemachen/", include("ardamussbesserenamemachen.urls")),
     path('admin/', admin.site.urls)
 ]
